@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası — Petico</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green-dark:  #143D28;
+      --green-mid:   #217A4B;
+      --green-light: #97BC62;
+      --bg:          #F4F7F1;
+      --white:       #ffffff;
+      --text:        #1a2e1f;
+      --muted:       #5a7060;
+      --border:      #d4e4d8;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+    header { background: var(--green-dark); padding: 40px 24px 32px; text-align: center; }
+    .logo { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .paw { width: 44px; height: 44px; background: var(--green-mid); border-radius: 13px; display: flex; align-items: center; justify-content: center; font-size: 24px; }
+    .logo-text { font-size: 28px; font-weight: 700; color: var(--white); letter-spacing: 0.3px; }
+    header h1 { font-size: 18px; font-weight: 400; color: rgba(255,255,255,0.75); margin-top: 4px; }
+    .updated { display: inline-block; margin-top: 12px; font-size: 13px; color: var(--green-light); background: rgba(151,188,98,0.15); padding: 4px 12px; border-radius: 20px; }
+    main { max-width: 740px; margin: 40px auto; padding: 0 24px 80px; }
+    .intro-card { background: var(--white); border-left: 4px solid var(--green-mid); border-radius: 12px; padding: 20px 24px; margin-bottom: 40px; font-size: 15px; color: var(--muted); }
+    section { margin-bottom: 36px; }
+    h2 { font-size: 17px; font-weight: 700; color: var(--green-dark); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+    h2::before { content: ''; display: inline-block; width: 4px; height: 18px; background: var(--green-mid); border-radius: 2px; flex-shrink: 0; }
+    p { font-size: 15px; color: var(--text); margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+    ul li { font-size: 15px; color: var(--text); padding-left: 24px; position: relative; }
+    ul li::before { content: '🐾'; position: absolute; left: 0; font-size: 12px; top: 3px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+    .chip { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .chip-name { font-weight: 600; color: var(--green-dark); margin-bottom: 4px; font-size: 14px; }
+    .chip-desc { color: var(--muted); font-size: 13px; }
+    .rights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .right-item { background: var(--white); border-radius: 10px; padding: 16px; text-align: center; border: 1px solid var(--border); }
+    .right-icon { font-size: 24px; margin-bottom: 8px; }
+    .right-label { font-size: 13px; font-weight: 600; color: var(--green-dark); }
+    .contact-card { background: var(--green-dark); border-radius: 14px; padding: 28px; text-align: center; color: var(--white); }
+    .contact-card h2 { color: var(--white); justify-content: center; }
+    .contact-card h2::before { background: var(--green-light); }
+    .contact-card p { color: rgba(255,255,255,0.8); }
+    .email-link { display: inline-block; margin-top: 12px; background: var(--green-mid); color: var(--white); padding: 10px 24px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 15px; }
+    footer { text-align: center; padding: 20px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--border); }
+    @media (max-width: 480px) { header { padding: 28px 16px 24px; } main { padding: 0 16px 60px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <div class="paw">🐾</div>
+    <span class="logo-text">Petico</span>
+  </div>
+  <h1>Gizlilik Politikası</h1>
+  <span class="updated">Son güncelleme: Haziran 2026</span>
+</header>
+<main>
+  <div class="intro-card">
+    Petico olarak evcil hayvanınızın ve sizin gizliliğinizi ciddiye alıyoruz.
+    Bu politika, hangi verileri topladığımızı, neden topladığımızı ve nasıl koruduğumuzu açıklar.
+    Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.
+  </div>
+
+  <section>
+    <h2>Toplanan Veriler</h2>
+    <ul>
+      <li><strong>Hesap bilgileri:</strong> E-posta adresi, ad soyad</li>
+      <li><strong>Profil fotoğrafı:</strong> İsteğe bağlı avatar resmi</li>
+      <li><strong>Evcil hayvan profili:</strong> İsim, tür, ırk, yaş, cinsiyet, amaç, fotoğraflar, biyografi</li>
+      <li><strong>Konum:</strong> Yakındaki hayvanları ve parkları bulmak için anlık GPS konumu</li>
+      <li><strong>Mesajlar:</strong> Eşleşen kullanıcılar arasındaki sohbet içerikleri</li>
+      <li><strong>Park verileri:</strong> Check-in bilgileri, yorum ve puanlar</li>
+      <li><strong>Sağlık kartı:</strong> Veteriner ziyaretleri, aşı kayıtları (yalnızca siz görebilirsiniz)</li>
+      <li><strong>Güven puanları:</strong> Anonim buluşma değerlendirmeleri</li>
+      <li><strong>Beğeni ve eşleşmeler:</strong> Swipe ve eşleşme kayıtları</li>
+      <li><strong>Bildirim tokeni:</strong> Push bildirimleri göndermek için</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Verilerin Kullanımı</h2>
+    <ul>
+      <li>Yakınızda uygun evcil hayvanları keşfetmenizi sağlamak</li>
+      <li>Uyum skoru hesaplaması ve eşleştirme</li>
+      <li>Kullanıcılar arası güvenli mesajlaşma</li>
+      <li>Fotoğraf uygunluk kontrolü (yapay zeka ile)</li>
+      <li>Evcil hayvan ırkı tespiti ve biyografi oluşturma</li>
+      <li>Park check-in ve topluluk özellikleri</li>
+      <li>Yeni eşleşme ve mesaj bildirimleri</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Üçüncü Taraf Hizmetler</h2>
+    <div class="grid">
+      <div class="chip">
+        <div class="chip-name">Supabase</div>
+        <div class="chip-desc">Veritabanı, kimlik doğrulama ve dosya depolama</div>
+      </div>
+      <div class="chip">
+        <div class="chip-name">Anthropic Claude</div>
+        <div class="chip-desc">Fotoğraf kontrolü, ırk tespiti, biyografi ve uyum skoru</div>
+      </div>
+      <div class="chip">
+        <div class="chip-name">OpenStreetMap</div>
+        <div class="chip-desc">Yakındaki parkların harita ve konum verileri</div>
+      </div>
+      <div class="chip">
+        <div class="chip-name">Expo</div>
+        <div class="chip-desc">Mobil uygulama altyapısı ve push bildirimleri</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Konum Verisi</h2>
+    <p>Konum bilginiz yalnızca uygulama açıkken kullanılır ve yakınızdaki hayvanları ve parkları göstermek için işlenir. Sürekli arka plan konumu takibi yapılmaz. Kesin konumunuz diğer kullanıcılarla paylaşılmaz; yalnızca yaklaşık mesafe bilgisi gösterilir.</p>
+  </section>
+
+  <section>
+    <h2>Veri Güvenliği</h2>
+    <ul>
+      <li>Tüm veriler şifreli bağlantılar (HTTPS/TLS) üzerinden iletilir</li>
+      <li>Supabase Row Level Security (RLS) ile verilerinize yalnızca siz erişebilirsiniz</li>
+      <li>Şifreler hiçbir zaman düz metin olarak saklanmaz</li>
+      <li>İki faktörlü kimlik doğrulama altyapı güvenliği için etkindir</li>
+      <li>Fotoğraf içerikleri yükleme anında yapay zeka ile denetlenir</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Haklarınız</h2>
+    <div class="rights-grid">
+      <div class="right-item">
+        <div class="right-icon">👁</div>
+        <div class="right-label">Verileri Görüntüle</div>
+      </div>
+      <div class="right-item">
+        <div class="right-icon">✏️</div>
+        <div class="right-label">Profili Düzenle</div>
+      </div>
+      <div class="right-item">
+        <div class="right-icon">📍</div>
+        <div class="right-label">Konumu Kapat</div>
+      </div>
+      <div class="right-item">
+        <div class="right-icon">🗑</div>
+        <div class="right-label">Hesabı Sil</div>
+      </div>
+    </div>
+    <p style="margin-top: 16px;">Hesabınızı ve tüm verilerinizi Ayarlar → Hesabı Sil bölümünden kalıcı olarak silebilirsiniz. Silme işlemi geri alınamaz ve tüm verileriniz anında kaldırılır.</p>
+  </section>
+
+  <section>
+    <h2>Çocukların Gizliliği</h2>
+    <p>Petico 13 yaşın altındaki kullanıcılara yönelik değildir ve bu kullanıcılardan bilerek kişisel veri toplamaz. 13 yaşından küçük bir kullanıcının veri paylaştığını fark edersek, söz konusu veriler derhal silinir.</p>
+  </section>
+
+  <section>
+    <h2>Politika Değişiklikleri</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içinden bildirim göndeririz. Güncel politikayı her zaman bu sayfada bulabilirsiniz.</p>
+  </section>
+
+  <div class="contact-card">
+    <h2>İletişim</h2>
+    <p>Gizlilikle ilgili sorularınız için bize ulaşın.</p>
+    <a class="email-link" href="mailto:peticodestek@gmail.com">peticodestek@gmail.com</a>
+  </div>
+</main>
+<footer>© 2026 Berkay ÇONGAR — Petico. Tüm hakları saklıdır.</footer>
+</body>
+</html>
