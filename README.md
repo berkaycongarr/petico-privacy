@@ -24,6 +24,7 @@ Kişisel verileriniz üçüncü taraflarla satılmaz veya kiralanmaz. Veriler ya
 - Supabase (backend altyapı sağlayıcısı)
 - Anthropic (yapay zeka servisleri)
 - Yasal zorunluluk durumlarında
+
 Hesapsız ziyaretçilere görünen bilgiler Evcil hayvan profilleri (isim, tür, ırk, yaş, fotoğraflar, biyografi) ve sahiplendirme ilanları, uygulamayı hesap oluşturmadan kullanan ziyaretçilere de gösterilebilir. Bu ziyaretçilere konum bilginiz, iletişim bilgileriniz ve hesap kimliğiniz gösterilmez. Profilinizin ziyaretçilere gösterilmesini Ayarlar → Gizlilik → "Ziyaretçilere de Göster" anahtarından kapatabilirsiniz.
 
 ## 5. Veri Güvenliği
