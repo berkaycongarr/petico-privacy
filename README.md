@@ -1,6 +1,6 @@
 # Petico Gizlilik Politikası
 
-**Son güncelleme: Haziran 2026**
+**Son güncelleme: Ekim 2026**
 
 ## 1. Giriş
 Petico ("uygulama"), Berkay ÇONGAR tarafından geliştirilmiştir. Bu gizlilik politikası, uygulamayı kullanırken toplanan verileri açıklamaktadır.
@@ -10,7 +10,10 @@ Petico ("uygulama"), Berkay ÇONGAR tarafından geliştirilmiştir. Bu gizlilik 
 - **Evcil hayvan bilgileri:** İsim, tür, ırk, yaş, fotoğraf, video
 - **Konum bilgisi:** Yakınındaki hayvanları bulmak için anlık konum
 - **Mesajlar:** Eşleşen kullanıcılar arasındaki sohbet içerikleri
-- **Kullanım verileri:** Uygulama içi etkileşimler
+- **Kullanım verileri:** Uygulama içi etkileşimler (ayrıntısı aşağıda)
+
+### Kullanım İstatistikleri
+Uygulamayı geliştirmek için hangi özelliklerin kullanıldığını ölçüyoruz (uygulamanın açılması, kayıt adımları, kaydırma, eşleşme, mesaj gönderme, check-in, ilan ve sağlık kartı işlemleri, paylaşım gibi). Bu kayıtlar, uygulama ilk açıldığında cihazında rastgele oluşturulan bir kimlikle tutulur. Hesabına, adına, e-posta adresine veya konumuna bağlanmaz; mesaj içerikleri gibi bilgileri kapsamaz. Kayıtlar yalnızca toplu istatistik için kullanılır; reklam veya takip amacıyla kullanılmaz ve üçüncü taraflarla paylaşılmaz. Uygulamayı silip yeniden yüklediğinde yeni bir kimlik oluşur.
 
 ## 3. Verilerin Kullanımı
 Toplanan veriler şu amaçlarla kullanılır:
@@ -18,6 +21,7 @@ Toplanan veriler şu amaçlarla kullanılır:
 - Konum tabanlı yakın hayvanları listelemek
 - Kullanıcılar arası iletişimi sağlamak
 - Uygulama güvenliğini korumak
+- Uygulamayı geliştirmek için toplu kullanım istatistikleri çıkarmak
 
 ## 4. Veri Paylaşımı
 Kişisel verileriniz üçüncü taraflarla satılmaz veya kiralanmaz. Veriler yalnızca şu durumlarda paylaşılır:
@@ -25,7 +29,7 @@ Kişisel verileriniz üçüncü taraflarla satılmaz veya kiralanmaz. Veriler ya
 - Anthropic (yapay zeka servisleri)
 - Yasal zorunluluk durumlarında
 
-Hesapsız ziyaretçilere görünen bilgiler Evcil hayvan profilleri (isim, tür, ırk, yaş, fotoğraflar, biyografi) ve sahiplendirme ilanları, uygulamayı hesap oluşturmadan kullanan ziyaretçilere de gösterilebilir. Bu ziyaretçilere konum bilginiz, iletişim bilgileriniz ve hesap kimliğiniz gösterilmez. Profilinizin ziyaretçilere gösterilmesini Ayarlar → Gizlilik → "Ziyaretçilere de Göster" anahtarından kapatabilirsiniz.
+**Hesapsız ziyaretçilere görünen bilgiler:** Evcil hayvan profilleri (isim, tür, ırk, yaş, fotoğraflar, biyografi) ve sahiplendirme ilanları, uygulamayı hesap oluşturmadan kullanan ziyaretçilere de gösterilebilir. Bu ziyaretçilere konum bilginiz, iletişim bilgileriniz ve hesap kimliğiniz gösterilmez. Profilinizin ziyaretçilere gösterilmesini Ayarlar → Gizlilik → "Ziyaretçilere de Göster" anahtarından kapatabilirsiniz.
 
 ## 5. Veri Güvenliği
 Verileriniz Supabase altyapısında şifreli olarak saklanır. Row Level Security (RLS) politikaları ile her kullanıcı yalnızca kendi verilerine erişebilir.
