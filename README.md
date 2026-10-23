@@ -26,7 +26,8 @@ Toplanan veriler şu amaçlarla kullanılır:
 - Yakınınızdaki hayvanları ve parkları listelemek
 - Kullanıcılar arası mesajlaşmayı sağlamak
 - Sahiplendirme ilanlarını yayınlamak
-- Sağlık kartını tutmak ve aşı karnesindeki bilgileri okumak
+- Sağlık kartını tutmak
+- Yapay zeka destekli özellikleri sunmak: fotoğraf kontrolü, ırk tahmini, biyografi önerisi, uyum puanı ve aşı karnesi okuma
 - Yeni eşleşme, mesaj ve beğeni bildirimleri göndermek
 - Şikâyetleri incelemek, kötüye kullanımı önlemek ve uygulama güvenliğini korumak
 - Uygulamayı geliştirmek için toplu kullanım istatistikleri çıkarmak
@@ -36,7 +37,7 @@ Verileriniz reklam göstermek veya sizi başka uygulama ve sitelerde takip etmek
 ## 4. Veri Paylaşımı ve Hizmet Sağlayıcılar
 Kişisel verileriniz satılmaz, kiralanmaz ve reklam amacıyla üçüncü taraflarla paylaşılmaz. Uygulamanın çalışması için aşağıdaki hizmetlerden yararlanıyoruz; bu hizmetler verileri yalnızca bizim adımıza ve gerektiği ölçüde işler:
 - **Supabase:** Veritabanı, dosya depolama ve oturum açma altyapısı. Güvenlik ve hata takibi için IP adresi gibi teknik bağlantı kayıtlarını kısa süre tutar.
-- **Anthropic:** Aşı karnesi fotoğrafından aşı bilgilerini okuyan yapay zeka servisi. Fotoğraf yalnızca okuma için gönderilir; Petico bu fotoğrafı saklamaz.
+- **Anthropic:** Uygulamadaki yapay zeka özelliklerini sağlayan servis. Yüklediğiniz fotoğrafın uygun bir evcil hayvan fotoğrafı olup olmadığının kontrolü, ırk tahmini, biyografi önerisi, iki hayvan arasındaki uyum puanı ve aşı karnesi okuma için ilgili fotoğraf veya evcil hayvan bilgileri Anthropic'e gönderilir. Aşı karnesi fotoğrafları Petico'da saklanmaz.
 - **Expo, Google Firebase Cloud Messaging ve Apple Push Notification Service:** Bildirimlerin cihazınıza iletilmesi. Expo ayrıca uygulama güncellemelerini dağıtır.
 - **CARTO:** Harita görüntüleri. Harita yüklenirken IP adresiniz ve haritada görüntülenen bölge CARTO'ya iletilir.
 
