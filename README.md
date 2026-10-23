@@ -9,7 +9,7 @@ Petico ("uygulama"), Berkay ÇONGAR tarafından geliştirilmiştir. Bu gizlilik 
 - **Hesap bilgileri:** Ad, e-posta adresi ve hesap kimliği
 - **Evcil hayvan bilgileri:** İsim, tür, ırk, yaş, cinsiyet ve biyografi
 - **Fotoğraf ve videolar:** Evcil hayvan fotoğraf ve videoları, profil fotoğrafı, sohbette gönderdiğiniz fotoğraflar ve okutmak için çektiğiniz aşı karnesi fotoğrafları
-- **Konum bilgisi:** Konum izni verirseniz cihazınızın konumu. Yakınınızdaki hayvanları ve parkları göstermek ve evcil hayvanınızı yakındaki kullanıcılara gösterebilmek için kullanılır.
+- **Konum bilgisi:** Konum izni verirseniz cihazınızın konumu. Yakınınızdaki hayvanları ve parkları göstermek ve evcil hayvanınızı yakındaki kullanıcılara gösterebilmek için kullanılır. Konumunuz yaklaşık 1 km hassasiyete yuvarlanarak saklanır; tam konumunuz saklanmaz.
 - **Mesajlar:** Eşleştiğiniz kullanıcılarla yazışmalarınız
 - **Sahiplendirme ilanları:** İlan bilgileri ve ilana yazdığınız iletişim bilgisi (telefon numarası veya e-posta)
 - **Diğer içerikler:** Park yorumları ve puanları, sağlık kartı kayıtları (aşı, veteriner ziyareti, kilo) ve şikâyet açıklamaları
@@ -46,7 +46,7 @@ Yakınınızdaki parkları bulmak için sunucumuz OpenStreetMap verilerini sorgu
 Yasal bir zorunluluk olduğunda veriler yetkili makamlarla paylaşılabilir.
 
 ## 5. Diğer Kullanıcılara Görünen Bilgiler
-- Evcil hayvan profilleriniz (isim, tür, ırk, yaş, cinsiyet, biyografi, fotoğraf ve video) diğer kullanıcılara gösterilir. Konum koordinatlarınız gösterilmez; yalnızca aradaki yaklaşık uzaklık görünebilir.
+- Evcil hayvan profilleriniz (isim, tür, ırk, yaş, cinsiyet, biyografi, fotoğraf ve video) diğer kullanıcılara gösterilir. Konum koordinatlarınız gösterilmez; yalnızca kilometre cinsinden yaklaşık uzaklık görünebilir.
 - Sahiplendirme ilanlarınız ve park yorumlarınız adınızla birlikte gösterilir. İlana yazdığınız iletişim bilgisi giriş yapmış kullanıcılara gösterilir ve ilan paylaşıldığında paylaşım metnine eklenir.
 - Bir parkta check-in yaptığınızda görünürlüğü açık bıraktıysanız, evcil hayvanınızın adı, türü ve fotoğrafı o parkta olduğu bilgisiyle birlikte diğer kullanıcılara gösterilir. Check-in'ler geçicidir; 3 saatten eski olanlar silinir.
 - Sağlık kartı kayıtlarınız yalnızca size görünür.
